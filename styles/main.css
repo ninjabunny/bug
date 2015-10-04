@@ -13,17 +13,16 @@ body {
     *display: inline;   
 
     cursor: hand; 
-    cursor: pointer;       
+    cursor: pointer;  
+    background-color: red;   
+    height: 100px;
+    width: 100px;  
 }
 
 .resizable
 {
     width: 100px;   
     border: 1px solid #bb0000;   
-}
-.resizable img
-{
-    width: 100%;   
 }
 
 .ui-resizable-handle 
